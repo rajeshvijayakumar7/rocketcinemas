@@ -13,3 +13,6 @@ target/classes/com/pkg/rest/rocketcinemas/MyResource.class
 target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
 target/m2e-wtp/web-resources/META-INF/maven/com.pkg.rest/rocketcinemas/pom.properties
 target/m2e-wtp/web-resources/META-INF/maven/com.pkg.rest/rocketcinemas/pom.xml
+*.class
+target/surefire-reports/com.pkg.rest.rocketcinemas.controllers.test.OperationsOverSeatTest.txt
+target/surefire-reports/TEST-com.pkg.rest.rocketcinemas.controllers.test.OperationsOverSeatTest.xml

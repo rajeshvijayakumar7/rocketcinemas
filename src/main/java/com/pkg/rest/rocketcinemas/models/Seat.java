@@ -8,7 +8,7 @@ public class Seat {
 	private int seatNumber;
 	private SeatType seatType;
 	private int row;
-	private boolean seatAvailability;
+	private boolean seatAvailable;
 	private Gender occupiedBy;
 	
 	public int getSeatNumber() {
@@ -29,11 +29,11 @@ public class Seat {
 	public void setRow(int row) {
 		this.row = row;
 	}
-	public boolean isSeatAvailability() {
-		return seatAvailability;
+	public boolean isSeatAvailable() {
+		return seatAvailable;
 	}
-	public void setSeatAvailability(boolean seatAvailability) {
-		this.seatAvailability = seatAvailability;
+	public void setSeatAvailable(boolean seatAvailability) {
+		this.seatAvailable = seatAvailability;
 	}
 	public Gender getOccupiedBy() {
 		return occupiedBy;
