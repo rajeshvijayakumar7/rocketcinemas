@@ -9,8 +9,17 @@ public class OperationsOverSeat {
 
 	public List<Seat> listSeats() {
 		List<Seat> seats = new ArrayList<>();
+		
 		return seats;
 	}
 
+	public boolean reserveSeat(Seat reservedSeat) {
+		boolean reservationResult = false;
+		
+		return reservationResult;
+	}
 	
+	public void unreserveSeat(Seat unreservedSeat) {
+		
+	}
 }
