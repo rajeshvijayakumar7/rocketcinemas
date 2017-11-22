@@ -16,8 +16,9 @@ public class OperationsOverSeatTest {
 	@Test
 	public void listSeatsTest() {
 		OperationsOverSeat opr = new OperationsOverSeat();
-		List<Seat> seats = opr.listSeats();
-		assertEquals(ArrayList.class,seats.getClass());	
+		List<Seat> actualSeats = opr.listSeats();
+		List<Seat> expectedSeats = new ArrayList<>();
+		assertEquals(actualSeats, expectedSeats);	
 	}
 	@Test
 	public void listSeatsNullTest() {
@@ -25,10 +26,5 @@ public class OperationsOverSeatTest {
 		List<Seat> seats = opr.listSeats();
 		assertNotNull(seats);	
 	}
-	@Test
-	public void listSeats() {
-		OperationsOverSeat opr = new OperationsOverSeat();
-		List<Seat> seats = opr.listSeats();
-		assertEquals(ArrayList.class,seats.getClass());	
-	}
+	
 }
