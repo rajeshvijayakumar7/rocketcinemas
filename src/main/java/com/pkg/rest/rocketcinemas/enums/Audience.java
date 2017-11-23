@@ -1,6 +1,6 @@
 package com.pkg.rest.rocketcinemas.enums;
 
-public enum Gender {
+public enum Audience {
 	MALE,
 	FEMALE
 }

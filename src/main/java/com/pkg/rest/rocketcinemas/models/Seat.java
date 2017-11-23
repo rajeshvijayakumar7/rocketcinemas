@@ -1,6 +1,6 @@
 package com.pkg.rest.rocketcinemas.models;
 
-import com.pkg.rest.rocketcinemas.enums.Gender;
+import com.pkg.rest.rocketcinemas.enums.Audience;
 import com.pkg.rest.rocketcinemas.enums.SeatType;
 
 public class Seat {
@@ -9,7 +9,7 @@ public class Seat {
 	private SeatType seatType;
 	private int row;
 	private boolean seatAvailable;
-	private Gender occupiedBy;
+	private Audience occupiedBy;
 	
 	public int getSeatNumber() {
 		return seatNumber;
@@ -35,10 +35,10 @@ public class Seat {
 	public void setSeatAvailable(boolean seatAvailability) {
 		this.seatAvailable = seatAvailability;
 	}
-	public Gender getOccupiedBy() {
+	public Audience getOccupiedBy() {
 		return occupiedBy;
 	}
-	public void setOccupiedBy(Gender occupiedBy) {
+	public void setOccupiedBy(Audience occupiedBy) {
 		this.occupiedBy = occupiedBy;
 	}
 	
