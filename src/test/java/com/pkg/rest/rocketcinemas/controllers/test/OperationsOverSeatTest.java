@@ -16,14 +16,15 @@ public class OperationsOverSeatTest {
 	@Test
 	public void listSeatsTest() {
 		OperationsOverSeat opr = new OperationsOverSeat();
-		List<Seat> actualSeats = opr.listSeats();
+		List<Seat> actualSeats = opr.listAllSeats();
 		List<Seat> expectedSeats = new ArrayList<>();
 		assertEquals(actualSeats, expectedSeats);	
 	}
+	
 	@Test
 	public void listSeatsNullTest() {
 		OperationsOverSeat opr = new OperationsOverSeat();
-		List<Seat> seats = opr.listSeats();
+		List<Seat> seats = opr.listAllSeats();
 		assertNotNull(seats);	
 	}
 	
